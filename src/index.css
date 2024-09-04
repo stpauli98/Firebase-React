@@ -5,9 +5,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f9; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.popup-message {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-left: 5px solid #4caf50;
+  color: #333;
+  font-size: 14px;
+  text-align: left;
+}
+
+.popup-message.error {
+  border-left-color: #f44336;
+}
+
+.search-result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.loading {
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
 }
