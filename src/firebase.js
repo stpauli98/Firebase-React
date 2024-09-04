@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";  // Import Firestore
 
 // Firebase konfig
 const firebaseConfig = {
-  apiKey: "AIzaSyCi8fvHVwRJr7aSi7mZEwb6EYQ3mrIUK-0",
+  apiKey: "REACT_APP_ apiKey",
   authDomain: "node-damir.firebaseapp.com",
   projectId: "node-damir",
   storageBucket: "node-damir.appspot.com",
